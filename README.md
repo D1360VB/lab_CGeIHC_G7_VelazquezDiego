@@ -35,7 +35,7 @@ g++ Carga_de_Modelos.cpp -Iinclude -o <ejecutable_de_programa_a_compilar> -lglfw
 
 ▶️ Ejecución
 ```bash
-./<programa_a_compilar>
+./<ejecutable_de_programa>
 ```
 ---
 
