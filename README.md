@@ -18,16 +18,25 @@ sudo apt update
 sudo apt install build-essential libglfw3-dev libglew-dev libgl1-mesa-dev
 ```
 
+*A partir del previo 6, se descarga adicionalmente:
+```bash
+sudo apt install libassimp-dev libsoil-dev
+```
+
 🔧 Compilación
 ```bash
-g++ <programa_a_compilar>.cpp -o <programa_a_compilar> -lglfw -lGLEW -lGL
+g++ <programa_a_compilar>.cpp -o <ejecutable_de_programa_a_compilar> -lglfw -lGLEW -lGL
+```
+
+*Para compilar a partir del previo 6:
+```bash
+g++ Carga_de_Modelos.cpp -Iinclude -o <ejecutable_de_programa_a_compilar> -lglfw -lGLEW -lGL -lSOIL -lassimp
 ```
 
 ▶️ Ejecución
 ```bash
 ./<programa_a_compilar>
 ```
-
 ---
 
 ## Capturas de resultado de las distintas prácticas
